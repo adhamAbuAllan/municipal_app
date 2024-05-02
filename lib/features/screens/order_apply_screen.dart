@@ -8,10 +8,10 @@ class OrderApplyScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       body: SafeArea(
 
-        child: const SingleChildScrollView(
+        child: SingleChildScrollView(
           physics: BouncingScrollPhysics(decelerationRate: ScrollDecelerationRate.fast),
         
           padding: EdgeInsets.symmetric(horizontal: 10),
@@ -25,9 +25,9 @@ class OrderApplyScreen extends StatelessWidget {
                 Align(
                   alignment: Alignment.center,
                   child: Text(
-                    "الخدمات",
+                    "تقديم طلب اشتراك كهرباء 1 فاز",
                     style: TextStyle(
-                      fontSize: 24,
+                      fontSize: 18,
                       fontWeight: FontWeight.w700,
                     ),
                   ),
